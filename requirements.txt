@@ -9,8 +9,13 @@ torch==2.2.2
 torchvision==0.17.2
 torchaudio==2.2.2
 
-torch-geometric==2.5.3
-
+xgboost==2.0.3
 tabpfn==0.1.10
 
-xgboost==2.0.3
+# Graph Neural Networks
+torch-geometric==2.7.0
+
+# IMPORTANT:
+# Optional PyG dependencies (for advanced GNN / performance):
+# pip install torch_scatter torch_sparse torch_cluster torch_spline_conv ^
+# -f https://data.pyg.org/whl/torch-2.2.2+cpu.html
