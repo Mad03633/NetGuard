@@ -52,12 +52,12 @@ py -3.10 -m venv venv310
 
 Windows:
 ```bash
-venv\Scripts\activate
+venv310\Scripts\activate
 ```
 
 Linux / Mac:
 ```bash
-source venv/bin/activate
+source venv310/bin/activate
 ```
 
 ### 3. Install dependencies
