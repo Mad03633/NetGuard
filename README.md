@@ -89,3 +89,17 @@ source venv310/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+## Results
+
+The attack family distribution, binary distribution and correlation heatmap, you can see them from results/figures directory
+
+### Random Forest
+
+<p align="center">
+  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/rf_confusion_matrix.png" width="45%" />
+  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/rf_roc_curve.png" width="50%" />
+</p>
+
+### FT-Transformer
+
