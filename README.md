@@ -97,7 +97,7 @@ The attack family distribution, binary distribution and correlation heatmap, you
 ### Random Forest
 
 <p align="center">
-  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/rf_confusion_matrix.png" width="45%" />
+  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/rf_confusion_matrix.png" width="50%" />
   <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/rf_roc_curve.png" width="50%" />
 </p>
 
