@@ -103,3 +103,7 @@ The attack family distribution, binary distribution and correlation heatmap, you
 
 ### FT-Transformer
 
+<p align="center">
+  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/transformer_confusion_matrix.png" width="45%" />
+  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/transformer_roc_curve.png" width="45%" />
+</p>
