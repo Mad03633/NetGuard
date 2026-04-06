@@ -1,5 +1,14 @@
 # Next-Generation AI for Network Anomaly Detection
 
+This repository contains the implementation for the **Introduction to Multi-Agent Systems**:
+
+**Next-Generation AI for Network Anomaly Detection: Comparative Analysis of Transformer, Graph Neural Networks, and Foundation Models on NSL-KDD Dataset**
+
+**Author:** Madiyar Bolatov, Angsar Shaumen
+**Supervisor:** Professor, Dr. PhD Seema Rawat 
+**Program:** Applied Artificial Intelligence (MSc), Astana IT University  
+**Year:** 2026
+
 ## Overview
 
 This project implements a comparative study of modern machine learning approaches for network anomaly detection using the NSL-KDD dataset. The goal is to evaluate the effectiveness of next-generation AI models in detecting malicious network activity.
