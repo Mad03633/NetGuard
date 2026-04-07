@@ -1,0 +1,94 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\providecommand{\eprint}[2][]{\url{#2}}
+ \bibcommenthead
+
+\bibitem[{Aksholak et~al.(2026)Aksholak, B., Magazov, and
+  Kaplan}]{aksholak2026transformer}
+Aksholak G, B. A, Magazov R, et~al (2026) Transformer tokenization strategies
+  for nids. Cybersecurity Research
+
+\bibitem[{Breiman(2001)}]{breiman2001random}
+Breiman L (2001) Random forests. Machine learning 45(1):5--32
+
+\bibitem[{Chawla et~al.(2002)Chawla, Bowyer, Hall, and
+  Kegelmeyer}]{chawla2002smote}
+Chawla NV, Bowyer KW, Hall LO, et~al (2002) Smote: synthetic minority
+  over-sampling technique. Journal of artificial intelligence research
+  16:321--357
+
+\bibitem[{Garc{\'\i}a et~al.(2025)Garc{\'\i}a, de~Curto, de~Zarza, Cano, and
+  Calafate}]{garcia2025foundation}
+Garc{\'\i}a P, de~Curto J, de~Zarza I, et~al (2025) Foundation models for
+  cybersecurity. a comprehensive multi-modal evaluation of tabpfn.
+  Cybersecurity Research
+
+\bibitem[{Guthula et~al.(2025)}]{guthula2025netfound}
+Guthula S, et~al (2025) netfound: Foundation model for network security.
+  Cybersecurity Research
+
+\bibitem[{Hasan et~al.(2026)Hasan, Islam, Mamun, Islam, and
+  Gao}]{hasan2026adaptive}
+Hasan MM, Islam R, Mamun Q, et~al (2026) Adaptive multi-view transformer
+  ensemble for intrusion detection: Addressing data imbalance and enhancing
+  attack classification. Cybersecurity Research
+
+\bibitem[{Jahin et~al.(2025)}]{jahin2025cagn}
+Jahin MA, et~al (2025) Cagn-gat fusion: A hybrid contrastive attentive graph
+  neural network for network intrusion detection. Cybersecurity Research
+
+\bibitem[{Li et~al.(2023)Li, Zhang, Yuan, and Zhou}]{li2023network}
+Li X, Zhang J, Yuan Y, et~al (2023) Network intrusion detection with
+  edge-directed graph multi-head attention networks. Cybersecurity Research
+
+\bibitem[{Liu and Guo(2025)}]{liu2025dignn}
+Liu J, Guo M (2025) Dignn-a: Real-time network intrusion detection with
+  integrated neural networks based on dynamic graph. Cybersecurity Research
+
+\bibitem[{Manocchio et~al.(2024)}]{manocchio2024flowtransformer}
+Manocchio LD, et~al (2024) Flowtransformer: A transformer framework for
+  flow-based network intrusion detection systems. Cybersecurity Research
+
+\bibitem[{Ngo et~al.(2025)Ngo, Yin, Ge, and Wang}]{ngo2025optimizing}
+Ngo T, Yin J, Ge YF, et~al (2025) Optimizing iot intrusion detection---a graph
+  neural network approach with attribute-based graph construction.
+  Cybersecurity Research
+
+\bibitem[{P{\'e}rez-Jove et~al.(2026)}]{perez2026network}
+P{\'e}rez-Jove R, et~al (2026) Network traffic foundation models: A systematic
+  review. Cybersecurity Research
+
+\bibitem[{Ruiz-Villafranca et~al.(2025)}]{ruiz2025wfe}
+Ruiz-Villafranca S, et~al (2025) Wfe-tab: Overcoming limitations of tabpfn in
+  iiot-mec environments with a weighted fusion ensemble-tabpfn model for
+  improved ids performance. Cybersecurity Research
+
+\bibitem[{Saputra et~al.(2025)}]{saputra2025enhancing}
+Saputra FH, et~al (2025) Enhancing intrusion detection using random forest and
+  smote on the nsl-kdd dataset. Cybersecurity Research
+
+\bibitem[{Sun et~al.(2024)Sun, Teixeira, and Toor}]{sun2024gnn}
+Sun Z, Teixeira AM, Toor S (2024) Gnn-ids: Graph neural network based intrusion
+  detection system. Cybersecurity Research
+
+\bibitem[{Tavallaee et~al.(2009)Tavallaee, Bagheri, Lu, and
+  Ghorbani}]{tavallaee2009detailed}
+Tavallaee M, Bagheri E, Lu W, et~al (2009) A detailed analysis of the kdd cup
+  99 data set. In: 2009 IEEE symposium on computational intelligence for
+  security and defense applications, IEEE, pp 1--6
+
+\bibitem[{Ullah et~al.(2024)}]{ullah2024ids}
+Ullah F, et~al (2024) Ids-int: Intrusion detection system using
+  transformer-based transfer learning for imbalanced network traffic.
+  Cybersecurity Research
+
+\bibitem[{Yuliana et~al.(2024)Yuliana, Dhonihani, Fahlevi, and
+  Arisagast}]{yuliana2024analysis}
+Yuliana, Dhonihani, Fahlevi MR, et~al (2024) Analysis of nsl-kdd for the
+  implementation of machine learning in network intrusion detection system.
+  Cybersecurity Research
+
+\end{thebibliography}
