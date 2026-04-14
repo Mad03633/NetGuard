@@ -115,3 +115,9 @@ The attack family distribution, binary distribution and correlation heatmap, you
   <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/gnn_roc_curve.png" width="45%" />
 </p>
 
+### TabPFN (Tabular Priored-Fitted Network)
+
+<p align="center">
+  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/tabpfn_confusion_matrix.png" width="45%" />
+  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/tabpfn_roc_curve.png" width="45%" />
+</p>
