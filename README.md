@@ -121,3 +121,9 @@ The attack family distribution, binary distribution and correlation heatmap, you
   <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/tabpfn_confusion_matrix.png" width="45%" />
   <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/tabpfn_roc_curve.png" width="45%" />
 </p>
+
+### Model Comparison by metrics (accuracy, precision, recall, f1, roc_auc)
+
+<p align="center">
+  <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/model_comparison.png" width="45%" />
+</p>
