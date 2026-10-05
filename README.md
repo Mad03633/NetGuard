@@ -127,3 +127,9 @@ The attack family distribution, binary distribution and correlation heatmap, you
 <p align="center">
   <img src="https://github.com/Mad03633/NetGuard/blob/dev/results/figures/model_comparison.png"/>
 </p>
+
+## Demo-test by cognitive functions
+
+<p align="center">
+  <img src="https://github.com/Mad03633/NetGuard/blob/cognitive/cognitive_figures/demo-test.jpg"/>
+</p>
