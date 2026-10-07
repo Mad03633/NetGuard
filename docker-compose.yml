@@ -1,0 +1,54 @@
+# ===========================================
+# NetGuard Cognitive AI Demo — Production Stack
+# Madiyar B., Angsar S., Alisher A. · AAI-2501M · AITU
+# ===========================================
+#
+# Prerequisites (run once on server):
+#   docker network create platform-net
+#
+# Deploy:
+#   docker compose up -d --build
+#
+# ===========================================
+
+name: netguard-demo
+
+x-logging: &logging
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+services:
+  netguard-demo:
+    build: .
+    container_name: netguard-demo
+    restart: unless-stopped
+    networks:
+      - platform-net
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.netguard.rule=Host(`netguard.piupiu.kz`)"
+      - "traefik.http.routers.netguard.service=netguard-demo"
+      - "traefik.http.services.netguard-demo.loadbalancer.server.port=8000"
+      - "traefik.docker.network=platform-net"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://127.0.0.1:8000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+        reservations:
+          memory: 128M
+    logging: *logging
+
+# ===========================================
+# Networks — external, created separately
+# ===========================================
+networks:
+  platform-net:
+    external: true
