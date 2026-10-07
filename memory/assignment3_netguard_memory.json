@@ -1,0 +1,79 @@
+[
+  {
+    "event_id": "apache_back_710",
+    "timestamp": "2026-10-07T00:01:31.562080+00:00",
+    "protocol_type": "tcp",
+    "service": "http",
+    "prediction": "Anomaly",
+    "probability": 0.65,
+    "base_risk": "MEDIUM",
+    "final_risk": "HIGH",
+    "recommendation": "Escalate to analyst: repeated anomalous protocol/service pattern confirmed in long-term memory (Rule K4)"
+  },
+  {
+    "event_id": "apache_back_438",
+    "timestamp": "2026-10-07T00:01:32.405010+00:00",
+    "protocol_type": "tcp",
+    "service": "http",
+    "prediction": "Anomaly",
+    "probability": 0.65,
+    "base_risk": "MEDIUM",
+    "final_risk": "HIGH",
+    "recommendation": "Escalate to analyst: repeated anomalous protocol/service pattern confirmed in long-term memory (Rule K4)"
+  },
+  {
+    "event_id": "neptune_323",
+    "timestamp": "2026-10-07T00:01:43.666186+00:00",
+    "protocol_type": "tcp",
+    "service": "private",
+    "prediction": "Anomaly",
+    "probability": 1.0,
+    "base_risk": "HIGH",
+    "final_risk": "HIGH",
+    "recommendation": "Immediate analyst review"
+  },
+  {
+    "event_id": "apache_back_138",
+    "timestamp": "2026-10-07T00:09:42.751537+00:00",
+    "protocol_type": "tcp",
+    "service": "http",
+    "prediction": "Anomaly",
+    "probability": 0.65,
+    "base_risk": "MEDIUM",
+    "final_risk": "HIGH",
+    "recommendation": "Escalate to analyst: repeated anomalous protocol/service pattern confirmed in long-term memory (Rule K4)"
+  },
+  {
+    "event_id": "test_7527",
+    "timestamp": "2026-10-05T14:11:56.931Z",
+    "protocol_type": "tcp",
+    "service": "http",
+    "prediction": "Anomaly",
+    "probability": 1.0,
+    "base_risk": "HIGH",
+    "final_risk": "HIGH",
+    "recommendation": "Immediate analyst review"
+  },
+  {
+    "event_id": "test_11868",
+    "timestamp": "2026-10-05T14:11:56.942Z",
+    "protocol_type": "tcp",
+    "service": "http",
+    "prediction": "Anomaly",
+    "probability": 1.0,
+    "base_risk": "HIGH",
+    "final_risk": "HIGH",
+    "recommendation": "Immediate analyst review"
+  },
+  {
+    "event_id": "apache_back_180",
+    "timestamp": "2026-10-07T00:09:43.498892+00:00",
+    "protocol_type": "tcp",
+    "service": "http",
+    "prediction": "Anomaly",
+    "probability": 0.65,
+    "base_risk": "MEDIUM",
+    "final_risk": "HIGH",
+    "recommendation": "Escalate to analyst: repeated anomalous protocol/service pattern confirmed in long-term memory (Rule K4)"
+  }
+]
