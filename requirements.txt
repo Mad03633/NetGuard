@@ -1,23 +1,11 @@
+# Reproducible Streamlit DSS + preserved FastAPI demo. Python 3.10-3.12.
+streamlit==1.51.0
 numpy==1.26.4
 pandas==2.2.2
-matplotlib==3.8.4
-seaborn==0.13.2
 scikit-learn==1.4.2
 joblib==1.4.2
-
-ipykernel==6.29.4
-
-torch==2.2.2
-torchvision==0.17.2
-torchaudio==2.2.2
-
-xgboost==2.0.3
-tabpfn==0.1.10
-
-# Graph Neural Networks
-torch-geometric==2.7.0
-
-# IMPORTANT:
-# Optional PyG dependencies (for advanced GNN / performance):
-# pip install torch_scatter torch_sparse torch_cluster torch_spline_conv ^
-# -f https://data.pyg.org/whl/torch-2.2.2+cpu.html
+fastapi==0.110.0
+uvicorn==0.29.0
+pydantic==2.6.4
+httpx==0.27.2
+pytest==8.4.2

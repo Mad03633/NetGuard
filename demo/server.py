@@ -28,8 +28,15 @@ from pydantic import BaseModel
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 MODELS_DIR = BASE_DIR / "results" / "models"
+# Distributed originals may be Git LFS pointers, not serialized Python models.
+# Keep them intact and use explicitly rebuilt local artifacts when necessary.
+if (MODELS_DIR / "random_forest.pkl").read_bytes().startswith(b"version https://git-lfs.github.com/spec/"):
+    MODELS_DIR = MODELS_DIR / "rebuilt"
+    if not (MODELS_DIR / "random_forest.pkl").exists():
+        raise RuntimeError("Original models are Git LFS pointers. Run: python -m scripts.rebuild_models")
+    print("[INIT] Using REBUILT local NSL-KDD artifacts; original LFS pointers preserved.")
 DATA_DIR = BASE_DIR / "data"
-MEMORY_PATH = BASE_DIR / "memory" / "assignment3_netguard_memory.json"
+MEMORY_PATH = Path(os.environ.get("NETGUARD_LEGACY_MEMORY_PATH", str(BASE_DIR / "memory" / "assignment3_netguard_memory.json")))
 MEMORY_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 # 1. Load Trained Artifacts

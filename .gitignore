@@ -1,2 +1,8 @@
-/venv310__pycache__/
+venv310/
+.venv/
+.tmp/
+.build/
+runtime/
+.pytest_cache/
+__pycache__/
 *.pyc

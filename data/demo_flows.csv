@@ -1,0 +1,6 @@
+event_id,protocol_type,service,flag,src_bytes,dst_bytes,count,serror_rate,diff_srv_rate,num_failed_logins,label
+normal_ftp,tcp,ftp_data,SF,491,0,2,0.0,0.0,0,normal
+ambiguous_http,tcp,http,S0,0,0,180,0.5,0.2,0,normal
+syn_flood,tcp,private,S0,0,0,300,1.0,1.0,0,neptune
+service_scan,tcp,other,REJ,0,0,120,0.0,1.0,1,portsweep
+failed_login,tcp,telnet,S0,100,0,90,0.2,0.3,5,guess_passwd

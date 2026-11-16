@@ -1,0 +1,13 @@
+{
+  "origin": "Rebuilt locally because original artifacts are Git LFS pointers",
+  "model": "RandomForestClassifier (80 trees, depth 22, seed 42)",
+  "training_rows": 125973,
+  "test_rows": 22544,
+  "data": "NSL-KDD train/test split; preprocessing fit on training only",
+  "accuracy": 0.7738200851667849,
+  "precision": 0.9681598062953995,
+  "recall": 0.6231590430920284,
+  "f1": 0.7582610344664107,
+  "roc_auc": 0.9708837527990709,
+  "limitation": "Historical offline data. These are legacy RF metrics, not DSS effectiveness."
+}
